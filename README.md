@@ -2,7 +2,7 @@ docker-postgres
 ===============
 ```sh
 docker run galkinrost/docker-postgres -p 5432:5432 \
-                                      -v /path/to/local/data:/var/lib/postgresql/data
+                                      -v /path/to/local/data:/var/lib/postgresql/data \
                                       -e TIMEZONE=Europe/Moscow \
                                       -e LOCALE=ru_RU
                                       -e POSTGRES_DB=database_name \
